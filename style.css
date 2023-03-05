@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #B68C5A;
+    --gray: #f2f2f2;
+    --footer-bg: #111111;
+    --white: #ffffff;
+    --black: #414040;
+  }
+.btn{
+    background: var(--primary-color) !important;
+    color: var(--white) !important; 
+    height: 50px;
+  }
+.banner{
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%),url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+
+/* Slider section Responsivr for smalldevice  */
+@media only screen and (max-width: 576px){
+  .slider-img{
+    width: 300%!important;
+  }
+}
+@media only screen and (min-width: 992px){
+  .slider-img{
+    width: 100%!important;
+  }
+}
